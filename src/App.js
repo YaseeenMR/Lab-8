@@ -24,7 +24,7 @@ function App() {
                 <li>
                   <Link to="/product/add">Add Product</Link>
                 </li>
-              </ul>
+              </ul> 
             </nav>
 
             {/* Routes for different pages */}
