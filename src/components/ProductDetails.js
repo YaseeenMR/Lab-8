@@ -32,6 +32,7 @@ const ProductDetails = () => {
     }
   }, [productId]);
 
+  
   // Function to handle after delete
   const onProductDeleted = async (product) => {
     navigate(-1);

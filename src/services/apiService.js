@@ -41,3 +41,5 @@ export const addProduct = (product) => {
 export const editProduct = (id, product) => {
     return axios.put(`${BASE_URL}/${id}`, JSON.stringify(product));
 };
+
+
